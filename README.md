@@ -30,6 +30,6 @@ object ExampleLibrary extends App {
 
   val libertyContext = new LibertyContext(settings, dependencies)
 
-  libertyContext.incrementallyCompile("src/main/scala", "target")
+  libertyContext.incrementallyCompile("src", "target")
 }
 ```
