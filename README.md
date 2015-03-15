@@ -21,7 +21,8 @@ object ExampleLibrary extends App {
   val settings = Seq(
     Setting("organization" -> "com.example"),
     Setting("version" -> "0.1.0"),
-    Setting("scalaVersion" -> "2.11.4")
+    Setting("scalaVersion" -> "2.11.4"),
+    Setting("JVMDaemon" -> true)
   )
   val dependencies = Seq(
     Dependency("org.scala-lang.modules", "scala-async", "0.9.2"),
